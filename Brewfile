@@ -1,3 +1,4 @@
+# :vim: set ft=ruby
 tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
 tap "heroku/brew"
@@ -43,13 +44,13 @@ brew "coreutils"
 # Load/unload environment variables based on $PWD
 brew "direnv"
 # Pack, ship and run any application as a lightweight container
-brew "docker", link: false
+#brew "docker", link: false
 # Bash, Zsh and Fish completion for Docker
-brew "docker-completion"
+#brew "docker-completion"
 # Completion script for docker-compose
-brew "docker-compose-completion"
+#brew "docker-compose-completion"
 # Completion script for docker-machine
-brew "docker-machine-completion"
+#brew "docker-machine-completion"
 # Command-line tool for DigitalOcean
 brew "doctl"
 # Secure your credentials in environment variables
@@ -142,7 +143,6 @@ brew "s3cmd"
 brew "screen"
 # Cryptographic store accessible through a PKCS#11 interface
 brew "softhsm"
-brew "sshpass"
 # Proxy server that works as a poor man's VPN
 brew "sshuttle"
 # User interface to the TELNET protocol
@@ -186,6 +186,7 @@ brew "heroku/brew/heroku"
 # PingIdentity DevOps Command-Line Tool
 brew "pingidentity/devops/ping-devops"
 # Command-line helper for the 1Password password manager
+cask "1password"
 cask "1password-cli"
 # View, print, and comment on PDF documents
 cask "adobe-acrobat-reader"
@@ -219,6 +220,7 @@ cask "fujifilm-x-webcam"
 cask "garmin-express"
 # Game client
 cask "gog-galaxy"
+cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "google-cloud-sdk"
 # Tools to protect your emails and files
@@ -239,6 +241,7 @@ cask "keybase"
 # Open-source keystroke visualizer
 cask "keycastr"
 cask "logitech-gaming-software"
+cask "logitech-options"
 # Cable-free audio router
 cask "loopback"
 # Software for Loupedeck consoles
@@ -277,6 +280,7 @@ cask "shimo"
 cask "signal"
 # Video chat, voice call and instant messaging application
 cask "skype"
+cask "slack"
 # Music streaming service
 cask "spotify"
 # Video game digital distribution service
