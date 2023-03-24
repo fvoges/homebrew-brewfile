@@ -1,0 +1,132 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-drivers"
+tap "homebrew/core"
+# Macro processing language
+brew "m4"
+# Official Amazon AWS command-line interface
+brew "awscli"
+# Bourne-Again SHell, a UNIX command interpreter
+brew "bash"
+# Programmable completion for Bash 3.2
+brew "bash-completion"
+# Bash completion for Bundler
+brew "bundler-completion"
+# Robust and modular log colorizer
+brew "ccze"
+# Cross-platform make
+brew "cmake"
+# Color-highlighted diff(1) output
+brew "colordiff"
+# GNU File, Shell, and Text utilities
+brew "coreutils"
+# Bash, Zsh and Fish completion for Docker
+brew "docker-completion"
+# Convert text between DOS, UNIX, and Mac formats
+brew "dos2unix"
+# Client interface to the Amazon EC2 web service
+brew "ec2-api-tools"
+# GNU awk utility
+brew "gawk"
+# Bash completion for gem
+brew "gem-completion"
+# This library is for the GeoIP Legacy format (dat)
+brew "geoip"
+# Distributed revision control system
+brew "git"
+# Small git utilities
+brew "git-extras"
+# Extensions to follow Vincent Driessen's branching model
+brew "git-flow"
+# Open source programming language to build simple/reliable/efficient software
+brew "go"
+# Graph visualization software from AT&T and Bell Labs
+brew "graphviz"
+# Improved top (interactive process viewer)
+brew "htop"
+# Add GitHub support to git on the command-line
+brew "hub"
+# Convert XML to another format (based on XSL or other tools)
+brew "xmlto"
+# Tools and libraries to manipulate images in many formats
+brew "imagemagick"
+# Calculate various network masks, etc. from a given IP address
+brew "ipcalc"
+# Update of iperf: measures TCP, UDP, and SCTP bandwidth
+brew "iperf3"
+# YAML Parser
+brew "libyaml"
+# Text-based web browser
+brew "lynx"
+# Mac App Store command-line interface
+brew "mas"
+# Terminal-based visual file manager
+brew "midnight-commander"
+# Menu-driven communications program
+brew "minicom"
+# Port scanning utility for large networks
+brew "nmap"
+# 7-Zip (high compression file archiver) implementation
+brew "p7zip"
+# Tool for creating identical machine images for multiple platforms
+brew "packer"
+# Bash completion for Packer
+brew "packer-completion"
+# Bash completion for Pip
+brew "pip-completion"
+# Show ps output as a tree
+brew "pstree"
+# Bash completion for Rake
+brew "rake-completion"
+# Ruby version manager
+brew "rbenv"
+# Utility that provides fast incremental file transfer
+brew "rsync"
+# Bash completion for Ruby
+brew "ruby-completion"
+# Add a public key to a remote machine's authorized_keys file
+brew "ssh-copy-id"
+# Convert TeXinfo files to HTML
+brew "texi2html"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Executes a program periodically, showing output fullscreen
+brew "watch"
+# Internet file retriever
+brew "wget"
+# Display calibration and characterization powered by ArgyllCMS
+cask "displaycal"
+# 3D mapping application
+cask "garmin-basecamp"
+cask "transmission-remote-gui"
+# Multimedia player
+cask "vlc"
+# Video communication and virtual meeting platform
+cask "zoom"
+mas "autoping", id: 632347870
+mas "DaVinci Resolve", id: 571213070
+mas "Deckset", id: 847496013
+mas "Disk Speed Test", id: 425264550
+mas "Display Menu", id: 549083868
+mas "Evernote", id: 406056744
+mas "Fusion 360", id: 868968810
+mas "GarageBand", id: 682658836
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "Kindle", id: 405399194
+mas "LastPass", id: 926036361
+mas "Marked 2", id: 890031187
+mas "Microsoft Remote Desktop", id: 1295203466
+mas "Notability", id: 736189492
+mas "Numbers", id: 409203825
+mas "OmniFocus", id: 867299399
+mas "Pages", id: 409201541
+mas "Remote Desktop", id: 409907375
+mas "Slack", id: 803453959
+mas "Telegram", id: 747648890
+mas "The Unarchiver", id: 425424353
+mas "We-Row - NOHrD", id: 1249969344
+mas "Xee³", id: 639764244
+mas "YubiKey Personalization Tool", id: 638161122
