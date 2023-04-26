@@ -15,18 +15,6 @@ tap "romkatv/powerlevel10k"
 brew "ack"
 # Run your GitHub Actions locally 🚀
 brew "act"
-# Core application library for C
-brew "glib"
-# Manage compile and link flags for libraries
-brew "pkg-config"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.9"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Framework for layout and rendering of i18n text
-brew "pango"
-# Icons for the GNOME project
-brew "adwaita-icon-theme"
 # Automate deployment, configuration, and upgrading
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
@@ -38,7 +26,7 @@ brew "aspell"
 # Official Amazon AWS command-line interface
 brew "awscli"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.10"
+brew "python@3.11"
 # Microsoft Azure CLI 2.0
 brew "azure-cli"
 # Bourne-Again SHell, a UNIX command interpreter
@@ -71,12 +59,10 @@ brew "doctl"
 brew "eksctl"
 # Secure your credentials in environment variables
 brew "envchain"
+# Cloud-native high-performance edge/middle/service proxy
+brew "envoy"
 # Make creating custom firmwares for ESP32/ESP8266 super easy
 brew "esphome"
-# Subtitle renderer for the ASS/SSA subtitle format
-brew "libass"
-# OCR (Optical Character Recognition) engine
-brew "tesseract"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg"
 # Play, record, convert, and stream audio and video
@@ -91,22 +77,14 @@ brew "git"
 brew "git-extras"
 # Prevents you from committing sensitive information to a git repo
 brew "git-secrets"
-# Library for USB device access
-brew "libusb"
 # Open source programming language to build simple/reliable/efficient software
 brew "go"
-# Generate introspection data for GObject libraries
-brew "gobject-introspection"
 # Cross-platform application and UI framework
 brew "qt"
 # Converts/uploads GPS waypoints, tracks, and routes
 brew "gpsbabel"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
-# GSettings schemas for desktop components
-brew "gsettings-desktop-schemas"
-# Toolkit for creating graphical user interfaces
-brew "gtk+3"
 # Open-source video transcoder available for Linux, Mac, and Windows
 brew "handbrake", link: false
 # Kubernetes package manager
@@ -115,8 +93,6 @@ brew "helm"
 brew "htop"
 # Add GitHub support to git on the command-line
 brew "hub"
-# Configurable static site generator
-brew "hugo"
 # Calculate various network masks, etc. from a given IP address
 brew "ipcalc"
 # Update of iperf: measures TCP, UDP, and SCTP bandwidth
@@ -127,16 +103,6 @@ brew "jq"
 brew "kubernetes-cli"
 # Bash completion for Launchctl
 brew "launchctl-completion"
-# Postgres C API library
-brew "libpq"
-# General purpose TCP-IP emulator
-brew "libslirp"
-# C library SSHv1/SSHv2 client and server protocols
-brew "libssh"
-# C library implementing the SSH2 protocol
-brew "libssh2"
-# C virtualization API
-brew "libvirt"
 # Mac App Store command-line interface
 brew "mas"
 # Terminal-based visual file manager
@@ -165,10 +131,6 @@ brew "pre-commit"
 brew "pstree"
 # Password generator
 brew "pwgen"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
-# Emulator for x86 and PowerPC
-brew "qemu"
 # Bash completion for Rake
 brew "rake-completion"
 # Install various Ruby versions and implementations
@@ -189,12 +151,8 @@ brew "ruby-completion"
 brew "s3cmd"
 # Terminal multiplexer with VT100/ANSI terminal emulation
 brew "screen"
-# Cryptographic store accessible through a PKCS#11 interface
-brew "softhsm"
 # Zsh prompt for Astronauts
 brew "spaceship"
-# Tool to create intelligent and beautiful documentation
-brew "sphinx-doc"
 # Proxy server that works as a poor man's VPN
 brew "sshuttle"
 # Change macOS audio source from the command-line
@@ -213,8 +171,6 @@ brew "tmux"
 brew "tree"
 # Bash completion for Vagrant
 brew "vagrant-completion"
-# Versatile Commodore Emulator
-brew "vice"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Sends magic packets to wake up network-devices
@@ -229,10 +185,6 @@ brew "ykman"
 brew "hashicorp/security/doormat-cli"
 # macOS command line utility to configure multi-display resolutions and arrangements. Essentially XRandR for macOS.
 brew "jakehilborn/jakehilborn/displayplacer"
-# High Performance Object Storage compatible with Amazon S3 API
-brew "minio/stable/minio"
-# PingIdentity DevOps Command-Line Tool
-brew "pingidentity/devops/ping-devops"
 # A Zsh Theme
 brew "romkatv/powerlevel10k/powerlevel10k"
 # Password manager that keeps all passwords secure behind one password
@@ -267,17 +219,11 @@ cask "docker"
 cask "dropbox"
 # Web browser
 cask "firefox"
-# 3D parametric modeler
-cask "freecad"
 cask "fujifilm-x-acquire"
 # Connect to Fujifilm cameras to extract and convert RAW files the way you want
 cask "fujifilm-x-raw-studio"
-# Solution that turns X Series and GFX System digital cameras into webcams
-cask "fujifilm-x-webcam"
 # Update maps and software, sync with Garmin Connect and register your device
 cask "garmin-express"
-# Game client
-cask "gog-galaxy"
 # Web browser
 cask "google-chrome"
 # Set of tools to manage resources and applications hosted on Google Cloud
@@ -291,14 +237,10 @@ cask "hashicorp-boundary-desktop"
 cask "hyper"
 # Video and photo editor
 cask "insta360-studio"
-# Power usage monitoring tool enabled for Intel Core processors
-cask "intel-power-gadget"
 # System monitoring app
 cask "istat-menus"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
-# Secure video conferencing app
-cask "jitsi-meet"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # End-to-end encryption software
@@ -319,12 +261,9 @@ cask "obsidian"
 cask "omnidisksweeper"
 # Verify system files structure, run miscellaneous maintenance and more
 cask "onyx"
-# Programmable solid 3D CAD modeller
-cask "openscad"
 cask "pdk"
 # G-code generator for 3D printers (RepRap, Makerbot, Ultimaker etc.)
 cask "prusaslicer"
-cask "puppet-bolt"
 # Imaging utility to install operating systems to a microSD card
 cask "raspberry-pi-imager"
 # Move and resize windows using keyboard shortcuts or snap areas
@@ -361,8 +300,6 @@ cask "virtualbox"
 cask "visual-studio-code"
 # Multimedia player
 cask "vlc"
-# Resources for Wacom tablets
-cask "wacom-tablet"
 # Image viewer and file browser
 cask "xee"
 # Video communication and virtual meeting platform
@@ -371,7 +308,6 @@ mas "1Password for Safari", id: 1569813296
 mas "AdGuard for Safari", id: 1440147259
 mas "Apple Configurator", id: 1037126344
 mas "BaseCamp", id: 411052274
-mas "Blackmagic RAW Speed Test", id: 1466185689
 mas "DaVinci Resolve", id: 571213070
 mas "Disk Speed Test", id: 425264550
 mas "Display Menu", id: 549083868
@@ -385,7 +321,6 @@ mas "iMovie", id: 408981434
 mas "Keynote", id: 409183694
 mas "Kindle", id: 405399194
 mas "LanguageTool", id: 1534275760
-mas "Marked 2", id: 890031187
 mas "Microsoft Remote Desktop", id: 1295203466
 mas "Momentum", id: 1564329434
 mas "Notability", id: 360593530
@@ -395,5 +330,3 @@ mas "Pages", id: 409201541
 mas "Playgrounds", id: 1496833156
 mas "Remote Desktop", id: 409907375
 mas "Telegram", id: 747648890
-mas "Up Next", id: 1355117041
-mas "We-Row - NOHrD", id: 1249969344
