@@ -295,7 +295,7 @@ cask "vagrant-manager"
 # Calling and messaging application focusing on security
 cask "viber"
 # Virtualizer for x86 hardware
-cask "virtualbox"
+# cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
 # Multimedia player
