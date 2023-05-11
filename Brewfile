@@ -40,7 +40,7 @@ brew "btop"
 # Bash completion for Bundler
 brew "bundler-completion"
 # Robust and modular log colorizer
-brew "ccze"
+# brew "ccze"
 # Cross-platform make
 brew "cmake"
 # Color-highlighted diff(1) output
