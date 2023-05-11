@@ -303,7 +303,7 @@ cask "vlc"
 # Image viewer and file browser
 cask "xee"
 # Video communication and virtual meeting platform
-cask "zoom"
+# cask "zoom"
 mas "1Password for Safari", id: 1569813296
 mas "AdGuard for Safari", id: 1440147259
 mas "Apple Configurator", id: 1037126344
