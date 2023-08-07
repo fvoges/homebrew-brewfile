@@ -1,4 +1,3 @@
-tap "hashicorp/security", "git@github.com:hashicorp/homebrew-security.git"
 tap "hashicorp/tap"
 tap "heroku/brew"
 tap "homebrew/bundle"
@@ -181,8 +180,6 @@ brew "watch"
 brew "wget"
 # Tool for managing your YubiKey configuration
 brew "ykman"
-# Doormat CLI -- Command Line Interface to the Doormat Service
-brew "hashicorp/security/doormat-cli"
 # macOS command line utility to configure multi-display resolutions and arrangements. Essentially XRandR for macOS.
 brew "jakehilborn/jakehilborn/displayplacer"
 # A Zsh Theme
