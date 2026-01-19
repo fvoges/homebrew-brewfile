@@ -3,7 +3,6 @@ tap "hashicorp/tap"
 tap "heroku/brew"
 tap "jakehilborn/jakehilborn"
 tap "oven-sh/bun"
-tap "puppetlabs/puppet"
 tap "romkatv/powerlevel10k"
 # Search tool like grep, but optimized for programmers
 brew "ack"
@@ -17,8 +16,6 @@ brew "tree"
 brew "ansible"
 # Checks ansible playbooks for practices and behaviour
 brew "ansible-lint"
-# Arduino command-line interface
-brew "arduino-cli"
 # Spell checker with better logic than ispell
 brew "aspell"
 # Official Amazon AWS command-line interface
@@ -201,8 +198,6 @@ brew "ykman"
 brew "derailed/k9s/k9s"
 # Packer
 brew "hashicorp/tap/packer"
-# Terraform
-brew "hashicorp/tap/terraform"
 # Vault
 brew "jakehilborn/jakehilborn/displayplacer"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
