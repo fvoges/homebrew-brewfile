@@ -82,8 +82,6 @@ brew "graphviz"
 brew "helm"
 # Improved top (interactive process viewer)
 brew "htop"
-# Add GitHub support to git on the command-line
-brew "hub"
 # Calculate various network masks, etc. from a given IP address
 brew "ipcalc"
 # Update of iperf: measures TCP, UDP, and SCTP bandwidth
@@ -114,8 +112,6 @@ brew "open-completion"
 brew "openbao"
 # OpenShift command-line interface tools
 brew "openshift-cli"
-# SSL/TLS VPN implementing OSI layer 2 or 3 secure network extension
-brew "openvpn"
 # PAM module for reattaching to the user's GUI (Aqua) session
 brew "pam-reattach"
 # Swiss-army knife of markup format conversion
@@ -216,12 +212,14 @@ cask "alfred"
 cask "appcleaner"
 # Menu bar icon organiser
 cask "bartender"
-# Display management tool
-cask "betterdisplay"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# OpenAI's Codex desktop app for managing coding agents
+cask "codex-app"
 # Browser for SQLite databases
 cask "db-browser-for-sqlite"
 # App to build and share containerised applications and microservices
@@ -242,32 +240,17 @@ cask "istat-menus"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
 # End-to-end encryption software
-cask "keybase"
-# Open-source keystroke visualiser
-cask "keycastr"
-# Support for Logitech G gear
 cask "logitech-g-hub"
 # Software for Logitech devices
-cask "logitech-options"
-# Shows the next meeting in the menu bar
-cask "meetingbar"
+cask "logi-options+"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
-# GameStream client
-cask "moonlight"
-cask "mqtt-explorer"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
 # Finds large, unwanted files and deletes them
 cask "omnidisksweeper"
 # Verify system files structure, run miscellaneous maintenance and more
 cask "onyx"
-# Android file transfer
-cask "openmtp"
-# Replacement for Docker Desktop
-cask "orbstack"
-# VPN client focusing on security
-cask "protonvpn"
 # Move and resize windows using keyboard shortcuts or snap areas
 cask "rectangle"
 # Open source virtual/remote desktop application
@@ -290,7 +273,6 @@ cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "AdGuard Mini", id: 1440147259
-mas "Apple Configurator", id: 1037126344
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Display Menu", id: 549083868
 mas "DuckDuckGo Privacy for Safari", id: 1482920575
