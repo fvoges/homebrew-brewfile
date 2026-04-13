@@ -66,7 +66,7 @@ brew "esphome"
 brew "eza"
 # Like neofetch, but much faster because written mostly in C
 brew "fastfetch"
-# Play, record, convert, and stream audio and video
+# Play, record, convert, and stream select audio and video codecs
 brew "ffmpeg"
 # Play, record, convert, and stream audio and video
 brew "ffmpeg@4"
@@ -112,12 +112,14 @@ brew "ipcalc"
 brew "iperf3"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Kubernetes command-line interface
-brew "kubernetes-cli"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Bash completion for Launchctl
 brew "launchctl-completion"
+# Implementation of the file(1) command
+brew "libmagic"
 # Mac App Store command-line interface
 brew "mas"
 # Terminal-based visual file manager
@@ -178,6 +180,8 @@ brew "rmlint"
 brew "rom-tools"
 # Utility that provides fast incremental file transfer
 brew "rsync"
+# CLI proxy to minimize LLM token consumption
+brew "rtk"
 # Bash completion for Ruby
 brew "ruby-completion"
 # Extremely fast Python linter, written in Rust
@@ -274,6 +278,10 @@ cask "brave-browser"
 cask "chatgpt"
 # Anthropic's official Claude AI desktop app
 cask "claude"
+# OpenAI's coding agent that runs in your terminal
+cask "codex"
+# OpenAI's Codex desktop app for managing coding agents
+cask "codex-app"
 # Browser for SQLite databases
 cask "db-browser-for-sqlite"
 # Presentations from Markdown
@@ -284,6 +292,10 @@ cask "discord"
 cask "docker-desktop"
 # Client for the Dropbox cloud storage service
 cask "dropbox"
+# Elgato FACECAM configuration tool
+cask "elgato-camera-hub"
+# Update and configure Elgato Capture devices
+cask "elgato-capture-device-utility"
 # Web browser
 cask "firefox"
 cask "font-fira-code-nerd-font"
@@ -291,6 +303,8 @@ cask "font-fira-code-nerd-font"
 cask "garmin-express"
 # Set of tools to manage resources and applications hosted on Google Cloud
 cask "gcloud-cli"
+# Disk space cleaner that finds and deletes duplicated and similar files
+cask "gemini"
 # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "ghostty"
 # Web browser
@@ -299,9 +313,13 @@ cask "google-chrome"
 cask "google-drive"
 # Tools to protect your emails and files
 cask "gpg-suite"
+# AI-powered notepad for meetings
+cask "granola"
+# Desktop automation application
+cask "hammerspoon"
 # Open-source video transcoder
 cask "handbrake-app"
-cask "hashicorp-boundary-desktop"
+cask "hashicorp/tap/hashicorp-boundary-desktop"
 # Terminal built on web technologies
 cask "hyper"
 # Vector graphics editor
@@ -318,10 +336,12 @@ cask "keepingyouawake"
 cask "keybase"
 # Open-source keystroke visualiser
 cask "keycastr"
+# Software for Logitech devices
+cask "logi-options+"
 # Support for Logitech G gear
 cask "logitech-g-hub"
-# Software for Logitech devices
-cask "logitech-options"
+# Screen and video recording software
+cask "loom"
 # Cable-free audio router
 cask "loopback"
 # UI replacement for volume, brightness and now playing controls
@@ -347,7 +367,7 @@ cask "openmtp"
 cask "openscad"
 # Replacement for Docker Desktop
 cask "orbstack"
-cask "pdk"
+cask "puppetlabs/puppet/pdk"
 # Home media player
 cask "plex"
 # VPN client focusing on security
@@ -376,8 +396,6 @@ cask "spotify"
 cask "steam"
 # Mesh VPN based on WireGuard
 cask "tailscale-app"
-# Remote access and connectivity software focused on security
-cask "teamviewer"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Unpacks archive files
@@ -387,8 +405,6 @@ cask "thumbsup"
 cask "transmission-remote-gui"
 # Virtual machines UI using QEMU
 cask "utm"
-# Development environment
-cask "vagrant"
 # Calling and messaging application focusing on security
 cask "viber"
 # Open-source code editor
@@ -401,6 +417,7 @@ cask "whatsapp"
 cask "xee"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "1Password for Safari", id: 1569813296
 mas "AdGuard Mini", id: 1440147259
 mas "Apple Configurator", id: 1037126344
 mas "Blackmagic Disk Speed Test", id: 425264550
@@ -411,16 +428,22 @@ mas "Garmin BaseCamp", id: 411052274
 mas "Goodnotes", id: 1444383602
 mas "HP", id: 1474276998
 mas "iMovie", id: 408981434
+mas "Ivory", id: 6444602274
+mas "Kagi for Safari", id: 1622835804
 mas "Keynote", id: 409183694
+mas "Kindle", id: 302584613
 mas "LanguageTool", id: 1534275760
 mas "Momentum", id: 1564329434
+mas "Notability", id: 360593530
 mas "Numbers", id: 409203825
+mas "Obsidian Web Clipper", id: 6720708363
 mas "Pages", id: 409201541
 mas "Remote Desktop", id: 409907375
 mas "Screens 5", id: 1663047912
 mas "Steam Link", id: 1246969117
 mas "Swift Playground", id: 1496833156
 mas "Telegram", id: 747648890
+mas "Unwatched", id: 6477287463
 mas "Windows App", id: 1295203466
 vscode "4ops.packer"
 vscode "aaron-bond.better-comments"
@@ -473,7 +496,6 @@ vscode "foxundermoon.shell-format"
 vscode "fredwangwang.vscode-hcl-format"
 vscode "george-alisson.html-preview-vscode"
 vscode "github.codespaces"
-vscode "github.copilot"
 vscode "github.copilot-chat"
 vscode "github.github-vscode-theme"
 vscode "github.remotehub"
@@ -534,6 +556,7 @@ vscode "ms-vscode-remote.remote-wsl"
 vscode "ms-vscode-remote.vscode-remote-extensionpack"
 vscode "ms-vscode.azure-repos"
 vscode "ms-vscode.cmake-tools"
+vscode "ms-vscode.cpp-devtools"
 vscode "ms-vscode.cpptools"
 vscode "ms-vscode.cpptools-extension-pack"
 vscode "ms-vscode.cpptools-themes"
@@ -604,3 +627,4 @@ vscode "yzhang.markdown-all-in-one"
 vscode "zamerick.vscode-caddyfile-syntax"
 vscode "ziyasal.vscode-open-in-github"
 vscode "zobo.php-intellisense"
+go "golang.org/x/tools/gopls"
