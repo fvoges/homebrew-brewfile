@@ -10,6 +10,8 @@ brew "ack"
 brew "act"
 # ANSI HTML adapter
 brew "aha"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.14"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
 # Automate deployment, configuration, and upgrading
@@ -88,10 +90,10 @@ brew "ipcalc"
 brew "iperf3"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
-# Kubernetes command-line interface
-brew "kubernetes-cli"
 # Tool that can switch between kubectl contexts easily and create aliases
 brew "kubectx"
+# Kubernetes command-line interface
+brew "kubernetes-cli"
 # Bash completion for Launchctl
 brew "launchctl-completion"
 # Mac App Store command-line interface
@@ -130,8 +132,6 @@ brew "pre-commit"
 brew "pstree"
 # Password generator
 brew "pwgen"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.14"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -194,7 +194,7 @@ brew "ykman"
 brew "derailed/k9s/k9s"
 # Packer
 brew "hashicorp/tap/packer"
-# Vault
+# macOS command line utility to configure multi-display resolutions and arrangements. Essentially XRandR for macOS.
 brew "jakehilborn/jakehilborn/displayplacer"
 # Incredibly fast JavaScript runtime, bundler, transpiler and package manager - all in one.
 brew "oven-sh/bun/bun"
@@ -214,8 +214,6 @@ cask "appcleaner"
 cask "bartender"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
-# Anthropic's official Claude AI desktop app
-cask "claude"
 # OpenAI's coding agent that runs in your terminal
 cask "codex"
 # OpenAI's Codex desktop app for managing coding agents
@@ -235,14 +233,18 @@ cask "google-chrome"
 cask "google-drive"
 # Tools to protect your emails and files
 cask "gpg-suite"
+# AI-powered notepad for meetings
+cask "granola"
+# Desktop automation application
+cask "hammerspoon"
 # System monitoring app
 cask "istat-menus"
 # Tool to prevent the system from going into sleep mode
 cask "keepingyouawake"
-# End-to-end encryption software
-cask "logitech-g-hub"
 # Software for Logitech devices
 cask "logi-options+"
+# Support for Logitech G gear
+cask "logitech-g-hub"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Knowledge base that works on top of a local folder of plain text Markdown files
@@ -265,6 +267,7 @@ cask "tailscale-app"
 cask "the-unarchiver"
 # Batch image thumbnail generation utility
 cask "thumbsup"
+# Virtual machines UI using QEMU
 cask "utm"
 # Open-source code editor
 cask "visual-studio-code"
@@ -272,12 +275,15 @@ cask "visual-studio-code"
 cask "vlc"
 # Video communication and virtual meeting platform
 cask "zoom"
+mas "1Password for Safari", id: 1569813296
 mas "AdGuard Mini", id: 1440147259
 mas "Blackmagic Disk Speed Test", id: 425264550
 mas "Display Menu", id: 549083868
-mas "DuckDuckGo Privacy for Safari", id: 1482920575
+mas "Kagi for Safari", id: 1622835804
+mas "Keynote", id: 409183694
 mas "LanguageTool", id: 1534275760
 mas "Momentum", id: 1564329434
+mas "Obsidian Web Clipper", id: 6720708363
 mas "Remote Desktop", id: 409907375
 mas "Screens 5", id: 1663047912
 mas "Windows App", id: 1295203466
