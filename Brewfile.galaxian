@@ -1,12 +1,12 @@
-tap "derailed/k9s"
-tap "hashicorp/tap"
-tap "heroku/brew"
-tap "jakehilborn/jakehilborn"
-tap "minio/stable"
-tap "openvoxproject/openvox"
-tap "oven-sh/bun"
-tap "rfidresearchgroup/proxmark3"
-tap "romkatv/powerlevel10k"
+tap "derailed/k9s", trusted: true
+tap "hashicorp/tap", trusted: true
+tap "heroku/brew", trusted: true
+tap "jakehilborn/jakehilborn", trusted: true
+tap "minio/stable", trusted: true
+tap "openvoxproject/openvox", "https://github.com/OpenVoxProject/homebrew-openvox", trusted: true
+tap "oven-sh/bun", trusted: true
+tap "rfidresearchgroup/proxmark3", trusted: true
+tap "romkatv/powerlevel10k", trusted: true
 # Search tool like grep, but optimized for programmers
 brew "ack"
 # Run your GitHub Actions locally
@@ -103,8 +103,6 @@ brew "htop"
 brew "hub"
 # Configurable static site generator
 brew "hugo"
-# C/C++ and Java libraries for Unicode and globalization
-brew "icu4c@76"
 # Calculate various network masks, etc. from a given IP address
 brew "ipcalc"
 # Update of iperf: measures TCP, UDP, and SCTP bandwidth
@@ -165,6 +163,8 @@ brew "python@3.10"
 brew "python@3.11"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.12"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.13"
 # Cross-platform application and UI framework
 brew "qt"
 # Install various Ruby versions and implementations
@@ -355,8 +355,12 @@ cask "loopback"
 cask "mediamate"
 # Shows the next meeting in the menu bar
 cask "meetingbar"
+# Syncs files between computers and MEGA Cloud drives
+cask "megasync"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
+# TeX distribution
+cask "miktex-console"
 # GameStream client
 cask "moonlight"
 cask "mqtt-explorer"
@@ -386,6 +390,8 @@ cask "raspberry-pi-imager"
 cask "rectangle"
 # File sync and share software
 cask "resilio-sync"
+# RØDE companion app
+cask "rode-central"
 # Open source virtual/remote desktop application
 cask "rustdesk"
 # Screen recording and video editing software
@@ -450,7 +456,6 @@ mas "Remote Desktop", id: 409907375
 mas "Screens 5", id: 1663047912
 mas "Steam Link", id: 1246969117
 mas "Swift Playground", id: 1496833156
-mas "Telegram", id: 747648890
 mas "Unwatched", id: 6477287463
 mas "Windows App", id: 1295203466
 go "golang.org/x/tools/gopls"
